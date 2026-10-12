@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Password Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Login Form</h2>
+
+        <form autocomplete="off">
+
+            <input id="email" type="email" placeholder="Enter email">
+            <small id="emailError">Please enter a valid email</small>
+
+            <input id="password" type="password" placeholder="Enter password">
+            <small id="passwordError">
+                Password must be at least 8 characters
+            </small>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+        <div id="resultMessage">
+            
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
